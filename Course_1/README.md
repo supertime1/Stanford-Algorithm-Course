@@ -11,4 +11,5 @@
       - way easier
       - constants depend on architecture/complier/programmer anyways
       - lose very little predictive power
-  
+    - Asymptotic analysis
+      - focus on running time for large input size n 

@@ -15,4 +15,5 @@
     - Asymptotic analysis
       - focus on running time for large input size n 
 ### Asymptotic analysis
-  - High-level idea: suppress constant factors and lower-order terms 
+  - High-level idea: suppress constant factors and lower-order terms
+  - Big-O, Big-Omega, Big-Theta definition

@@ -1,5 +1,6 @@
 # Divid and Conquer, Sorting and Searching. and Randomized Algorithms
 ## Week 1: Karatsuba Multiplication
+- Introduction  
   - Recursive Algorithm
   - Karatsuba Multiplication
   - Merge Sort: 
@@ -13,3 +14,4 @@
       - lose very little predictive power
     - Asymptotic analysis
       - focus on running time for large input size n 
+- Asymptotic analysis

@@ -49,6 +49,6 @@
     T(n) <= aT(n/b) + O(n^d)
     where a = number of recursive calls, b = input size shrinkage factor, d = exponent in running time of "combine step"
     
-        ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/Master%20Method.png?raw=true)
+       ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/Master%20Method.png?raw=true)
   
    where a can be interpretated as "rate of subproblem proliferation", and b^d can be interpretated as "rate of work shrinkage" 

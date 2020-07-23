@@ -17,3 +17,9 @@
 ### Asymptotic analysis
   - High-level idea: suppress constant factors and lower-order terms
   - Big-O, Big-Omega, Big-Theta definition
+
+## Week 2
+### Divid & Conquer Algorithms
+  - O(n log n) Algorithm for Counting Inversions
+    - Input: array A containing the numbers 1,2,3,...,n in some arbitrary order
+    - Output: number of inversions = number of pairs (i,j) of array indices with i<j and A[i] > A[j]

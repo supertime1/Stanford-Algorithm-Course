@@ -49,4 +49,4 @@
     T(n) <= aT(n/b) + O(n^d)
     where a = number of recursive calls, b = input size shrinkage factor, d = exponent in running time of "combine step"
     
-  ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/Master%20Method.png width="200" height="400"?raw=true)
+  ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/Master%20Method.png =250x250?raw=true)

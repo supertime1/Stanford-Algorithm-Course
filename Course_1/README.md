@@ -40,4 +40,5 @@
     - Motivation: find similarities of two points in a space
     - O(n log n) steps: 
       - Make copies of points sorted by x-coordinate (Px) and by y-coordinate (Py) (O(n log n))
-      - Divide P into subgroups that all can be handled by ClosestSplitPair functionss
+      - Divide P recursively into subgroups that all can be handled by ClosestSplitPair function
+      - ClosestSplitPair is O(n) times

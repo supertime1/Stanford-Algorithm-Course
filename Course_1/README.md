@@ -33,3 +33,11 @@
     - O(n^2) steps: 
       - recursively compute only 7 products; 
       - do necessary additions + subtractions
+      
+  - O(n log n) Algorithm for Closest Pair
+    - Input: a set P = {p1,...,pn} of n points in the plan R^2
+    - Output: a pair p*, q* belongs to P of distinct points that minimize Euclidean distance d(p,q) over p,q in the set P
+    - Motivation: find similarities of two points in a space
+    - O(n log n) steps: 
+      - Make copies of points sorted by x-coordinate (Px) and by y-coordinate (Py) (O(n log n))
+      - Divide P into subgroups that all can be handled by ClosestSplitPair functionss

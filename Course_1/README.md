@@ -51,4 +51,4 @@
     
        ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/Master%20Method.png?raw=true)
   
-   where a can be interpretated as "rate of subproblem proliferation", and b^d can be interpretated as "rate of work shrinkage" 
+   where a can be interpretated as "rate of subproblem proliferation", and b^d can be interpretated as "rate of work shrinkage" per subproblem

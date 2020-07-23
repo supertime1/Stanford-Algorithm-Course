@@ -26,11 +26,11 @@
     - Motivation: numerical similarity measure between two ranked lists: e.g. for collabroative filtering
     - O(n log n) steps: array A can be divided into subarray that all can be handled by *Merge_and_CountSplitInv*, where two sorted subarrays are merged (O(n)) while counting the total number of split inversions (O(n)). There will be log(n) layers, so total O(n log n).
     
-  - O(n^2) Strassen's Subcubic Matrix Multiplication Algorithm
+  - O(n^2.81) Strassen's Subcubic Matrix Multiplication Algorithm
     - Input: two matrices
     - Output: dot product of two matrices
-    - Motivation: reduce run time from brute force O(n^3) to O(n^2)
-    - O(n^2) steps: 
+    - Motivation: reduce run time from brute force O(n^3) to O(n^2.81)
+    - O(n^2.81) steps: 
       - recursively compute only 7 products; 
       - do necessary additions + subtractions
       

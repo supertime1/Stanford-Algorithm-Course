@@ -31,5 +31,5 @@
     - Output: dot product of two matrices
     - Motivation: reduce run time from brute force O(n^3) to O(n^2)
     - O(n^2) steps: 
-      1. recursively compute only 7 products; 
-      2. do necessary additions + subtractions
+      - recursively compute only 7 products; 
+      - do necessary additions + subtractions

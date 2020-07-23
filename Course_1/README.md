@@ -42,3 +42,10 @@
       - Make copies of points sorted by x-coordinate (Px) and by y-coordinate (Py) (O(n log n))
       - Divide P recursively into subgroups that all can be handled by ClosestSplitPair function
       - ClosestSplitPair is O(n) times
+  
+  ### Master Method
+  - Base case: T(n) <= a constant for all sufficiently small n
+  - For all larger n:
+    T(n) <= aT(n/b) + O(n^d)
+    where a = number of recursive calls, b = input size shrinkage factor, d = exponent in running time of "combine step"
+    

@@ -1,4 +1,12 @@
-# Divid and Conquer, Sorting and Searching. and Randomized Algorithms
+# Divide and Conquer, Sorting and Searching. and Randomized Algorithms
+## Summary
+### What problems are solved?
+  Sorting, Searching ith statistics
+### What methodology?
+  Divide and Conquer: divide to subrountine problems and combine those smaller problems to solve the bigger one
+  Master Method: method to calculate the Big-O for Divide and Conquer + Recursieve problems
+  Randomized Algorithm: use linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables
+
 ## Week 1
 ### Introduction  
   - Recursive Algorithm

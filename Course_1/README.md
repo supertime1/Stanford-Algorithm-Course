@@ -57,3 +57,5 @@
 
 ## Week 3 
   ### Quick Sort Algorithm
+  - Probability
+  

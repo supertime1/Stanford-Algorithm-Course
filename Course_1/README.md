@@ -71,3 +71,8 @@
 ### Linear Time Selection
 
 ### Graph and the Contraction Algorithm
+- Minimum cut:
+  - applications:
+    - identify network bottlenecks/weaknesses
+    - community detection in social networks
+    - image segmentation

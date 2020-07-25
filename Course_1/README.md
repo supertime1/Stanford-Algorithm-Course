@@ -64,6 +64,10 @@
    
 
 ## Week 3 
-  ### Quick Sort Algorithm
+### Quick Sort Algorithm
   - Probability
   
+## Week 4
+### Linear Time Selection
+
+### Graph and the Contraction Algorithm

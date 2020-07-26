@@ -79,3 +79,4 @@
  - Graph representation:
   - Adjacency matrix
   - Adjacency lists
+ - Analysis: with contraction algorithm  Omiga(n^2 m) -> can be improved to O(n^2) 

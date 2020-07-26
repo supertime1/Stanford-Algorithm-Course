@@ -7,6 +7,9 @@
   Master Method: method to calculate the Big-O for Divide and Conquer + Recursieve problems
   Randomized Algorithm: use linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables
 
+
+***Summarize the notes with algorithm description and Big-O analysis
+
 ## Week 1
 ### Introduction  
   - Recursive Algorithm
@@ -79,4 +82,10 @@
  - Graph representation:
   - Adjacency matrix
   - Adjacency lists
+ - Random Contraction Algorithm:
+  - while there are more than 2 vertices:
+    - pick a remaining edge (u,v) uniformly at random
+    - merge/contract u and v into a single vertex
+    - remove self-loops
+    - return cut represented by final 2 vertices
  - Analysis: with random contraction algorithm  Omiga(n^2 m) -> can be improved to O(n^2) 

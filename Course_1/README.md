@@ -1,7 +1,7 @@
 # Divide and Conquer, Sorting and Searching. and Randomized Algorithms
 ## Summary
 ### What problems are solved?
-  Sorting, Searching ith statistics
+  Sorting, Searching i th statistics
 ### What methodology?
   Divide and Conquer: divide to subrountine problems and combine those smaller problems to solve the bigger one
   Master Method: method to calculate the Big-O for Divide and Conquer + Recursieve problems

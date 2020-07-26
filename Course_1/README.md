@@ -90,3 +90,4 @@
     - remove self-loops
     - return cut represented by final 2 vertices
  - Analysis: with random contraction algorithm  Omiga(n^2 m) -> can be improved to O(n^2) 
+ - The number of minimum cuts: the largest number of min cuts that a graph with n vertices can have = n(n-1)/2

@@ -76,3 +76,6 @@
     - identify network bottlenecks/weaknesses
     - community detection in social networks
     - image segmentation
+ - Graph representation:
+  - Adjacency matrix
+  - Adjacency lists

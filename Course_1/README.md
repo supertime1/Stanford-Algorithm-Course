@@ -1,23 +1,24 @@
 # Divide and Conquer, Sorting and Searching. and Randomized Algorithms
 ## Algorithms based on Methodology
-  ### Divide and Conquer Paradigm: 
+  ### Divide and Conquer 
+  #### Paradigm
   - DIVIDE into smaller subproblems
   - CONQUER subproblems recursively
   - COMBINE solutions of subproblems into one for the original problem
   - Examples: MergeSort, Integer Multiplication, Strassen's Matrix Multiplication, Counting Inversions, Closest Pair
   
-  - **Master Method
-    - Motivation: mathematical analysis to evalute Divide and Conquer Algorithm
-    - Assumption: all subproblems are equal size
-    - Base case: T(n) <= a constant for all sufficiently small n
-    - For all larger n:
-      T(n) <= aT(n/b) + O(n^d)
-      where a = number of recursive calls, b = input size shrinkage factor, d = exponent in running time of "combine step"
+  #### Master Method
+  - Motivation: mathematical analysis to evalute Divide and Conquer Algorithm
+  - Assumption: all subproblems are equal size
+  - Base case: T(n) <= a constant for all sufficiently small n
+  - For all larger n:
+    T(n) <= aT(n/b) + O(n^d)
+    where a = number of recursive calls, b = input size shrinkage factor, d = exponent in running time of "combine step"
 
-         ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/Master%20Method.png?raw=true)
+       ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/Master%20Method.png?raw=true)
 
-     where a can be interpretated as "rate of subproblem proliferation (RSP)", and b^d can be interpretated as "rate of work shrinkage (RWS)" per subproblem.
-     if RSP < RWS, the master method will be most effective in reduction big O.
+   where a can be interpretated as "rate of subproblem proliferation (RSP)", and b^d can be interpretated as "rate of work shrinkage (RWS)" per subproblem.
+   if RSP < RWS, the master method will be most effective in reduction big O.
 
   ### Randomized Algorithm: 
   - use linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables

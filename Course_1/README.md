@@ -19,11 +19,11 @@
      where a can be interpretated as "rate of subproblem proliferation (RSP)", and b^d can be interpretated as "rate of work shrinkage (RWS)" per subproblem.
      if RSP < RWS, the master method will be most effective in reduction big O.
 
-  
-  ## Randomized Algorithm: 
+  ### Randomized Algorithm: 
   - use linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables
   - when you use a randomized algorithm, you always have to compute the "chance of success", this computation process will help detemine the Big-O
-  
+  - Examples: QuickSort, Linear Time Selection, Graph and Contraction Algorithm 
+
 ## Algorithms based on Applications
   ### Sorting (Divide and Conquer, Randomized)
   - MergeSort: O(n log n) (Divide and Conquer)
@@ -37,9 +37,6 @@
       - identify network bottlenecks/weaknesses
       - community detection in social networks
       - image segmentation
-   - Graph representation:
-    - Adjacency matrix
-    - Adjacency lists
    - Random Contraction Algorithm:
     - while there are more than 2 vertices:
       - pick a remaining edge (u,v) uniformly at random
@@ -71,13 +68,10 @@
     - recursively compute only 7 products; 
     - do necessary additions + subtractions
 
-
-## Week 3 
-### Quick Sort Algorithm
-  - Probability
-  
-## Week 4
-### Linear Time Selection
-
-### Graph and the Contraction Algorithm
-
+## Data Structure
+  ### Graph
+  - Vertex (node) and Edge
+  - Graph representation:
+    - Adjacency matrix
+    - Adjacency lists
+ 

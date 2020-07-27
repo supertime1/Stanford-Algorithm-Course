@@ -6,7 +6,7 @@
   - COMBINE solutions of subproblems into one for the original problem
   - Examples: MergeSort, Integer Multiplication, Strassen's Matrix Multiplication, Counting Inversions, Closest Pair
   
-    #### *Master Method*
+  - **Master Method
     - Motivation: mathematical analysis to evalute Divide and Conquer Algorithm
     - Assumption: all subproblems are equal size
     - Base case: T(n) <= a constant for all sufficiently small n

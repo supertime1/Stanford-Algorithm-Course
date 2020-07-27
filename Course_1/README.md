@@ -1,13 +1,24 @@
 # Divide and Conquer, Sorting and Searching. and Randomized Algorithms
 ## Summary
-### What problems are solved?
-  Sorting, Searching i th statistics
-### What methodology?
+### Methodology
   Divide and Conquer: divide to subrountine problems and combine those smaller problems to solve the bigger one
   Master Method: method to calculate the Big-O for Divide and Conquer + Recursieve problems
   Randomized Algorithm: 
   - use linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables
   - when you use a randomized algorithm, you always have to compute the "chance of success", this computation process will help detemine the Big-O
+  
+### Algorithm
+  #### Sorting:
+  - MergeSort
+  - QuickSort
+  #### Searching
+  - Linear time selection
+  - i th statistics
+  #### Minimum cut
+  - Random contraction algorithm
+  #### Counting Inversions
+  #### Find closest pair
+  #### Strassen's Subcubic Matrix Multiplication Algorithm
 
 ***Summarize the notes with algorithm description and Big-O analysis
 

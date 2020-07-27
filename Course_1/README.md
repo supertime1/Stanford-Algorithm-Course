@@ -1,5 +1,5 @@
 # Divide and Conquer, Sorting and Searching. and Randomized Algorithms
-## Algorithms based on Methodology
+## 1.Algorithms based on Methodology
   ### Divide and Conquer 
   #### Paradigm
   - DIVIDE into smaller subproblems
@@ -28,7 +28,7 @@
 
 ****Go through algorithm and list in below
 
-## Algorithms based on Applications
+## 2.Algorithms based on Applications
   ### Sorting (Divide and Conquer, Randomized)
   - MergeSort: O(n log n) (Divide and Conquer)
   - QuickSort: O(n) (Randomized)
@@ -71,7 +71,7 @@
     - recursively compute only 7 products; 
     - do necessary additions + subtractions
 
-## Data Structure
+## 3.Data Structure
   ### Graph
   - Vertex (node) and Edge
   - Graph representation:

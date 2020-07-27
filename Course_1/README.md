@@ -1,5 +1,5 @@
 # Divide and Conquer, Sorting and Searching. and Randomized Algorithms
-## 1.Algorithms based on Methodology
+## 1. Algorithms based on Methodology
   ### Divide and Conquer 
   #### Paradigm
   - DIVIDE into smaller subproblems
@@ -22,30 +22,28 @@
 
   ### Randomized Algorithm: 
   - Introduce a random process into algorithm
-  - when you use a randomized algorithm, you will need to compute the "chance of success" to detemine the Big-O; this process is often done by using linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables
+  - when a randomized algorithm is used, it is necessary to compute the "chance of success" to detemine the Big-O; this process is often done by using linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables
   - Examples: QuickSort, Linear Time Selection, Graph and Contraction Algorithm 
-
-
-****Go through algorithm and list in below
-
-## 2.Algorithms based on Applications
+  
+## 2. Algorithms based on Applications
   ### Sorting (Divide and Conquer, Randomized)
   - MergeSort: O(n log n) (Divide and Conquer)
-  - QuickSort: O(n) (Randomized)
+    - 
+  - QuickSort: O(n log n) on average (Randomized)
   ### Searching (Randomized)
   - Linear time selection of i th statistics
   
   ### Graph minimum cut (Randomized)
-   - Random Contraction Algorithm:
-    - Motivations:
-      - identify network bottlenecks/weaknesses
-      - community detection in social networks
-      - image segmentation
-    - while there are more than 2 vertices:
-      - pick a remaining edge (u,v) uniformly at random
-      - merge/contract u and v into a single vertex
-      - remove self-loops
-      - return cut represented by final 2 vertices
+  - Motivations:
+    - identify network bottlenecks/weaknesses
+    - community detection in social networks
+    - image segmentation
+  - Random Contraction Algorithm:
+        - while there are more than 2 vertices:
+          - pick a remaining edge (u,v) uniformly at random
+          - merge/contract u and v into a single vertex
+          - remove self-loops
+          - return cut represented by final 2 vertices
    - Analysis: with random contraction algorithm  Omiga(n^2 m) -> can be improved to O(n^2) 
    - The number of minimum cuts: the largest number of min cuts that a graph with n vertices can have = n(n-1)/2
   ### Counting Inversions (Divide and Conquer)
@@ -71,7 +69,7 @@
     - recursively compute only 7 products; 
     - do necessary additions + subtractions
 
-## 3.Data Structure
+## 3. Data Structure
   ### Graph
   - Vertex (node) and Edge
   - Graph representation:

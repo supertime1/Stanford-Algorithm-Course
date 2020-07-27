@@ -21,24 +21,26 @@
    if RSP < RWS, the master method will be most effective in reduction big O.
 
   ### Randomized Algorithm: 
-  - use linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables
-  - when you use a randomized algorithm, you always have to compute the "chance of success", this computation process will help detemine the Big-O
+  - Introduce a random process into algorithm
+  - when you use a randomized algorithm, you will need to compute the "chance of success" to detemine the Big-O; this process is often done by using linear expection property to turn a complex expectation of random variables into a sum of simple expectation of random variables
   - Examples: QuickSort, Linear Time Selection, Graph and Contraction Algorithm 
+
+
+****Go through algorithm and list in below
 
 ## Algorithms based on Applications
   ### Sorting (Divide and Conquer, Randomized)
   - MergeSort: O(n log n) (Divide and Conquer)
-  - QuickSort: 
+  - QuickSort: O(n) (Randomized)
   ### Searching (Randomized)
-  - Linear time selection
-  - i th statistics
-  ### Minimum cut (Randomized)
-   - Minimum cut:
-    - applications:
+  - Linear time selection of i th statistics
+  
+  ### Graph minimum cut (Randomized)
+   - Random Contraction Algorithm:
+    - Motivations:
       - identify network bottlenecks/weaknesses
       - community detection in social networks
       - image segmentation
-   - Random Contraction Algorithm:
     - while there are more than 2 vertices:
       - pick a remaining edge (u,v) uniformly at random
       - merge/contract u and v into a single vertex

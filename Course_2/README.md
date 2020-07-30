@@ -21,8 +21,11 @@
    - Undirected Connectivity (e.g. check if network is disconnected, graph visualization, clustering)
    
 - Depth-First Search (DFS)
- #### a. Algorithm O(m+n)
+  #### a. Algorithm O(m+n)
  - similar to BFS code, use a stack instead of a queue
- #### b. Applications
+  #### b. Applications
  - compute a topological ordering of a directed acyclic graph
  - compute the strongly connected components of directed graphs
+
+## Dijkstra's shortest-path algorithm for directed graph
+  - can be used to compute le > 1, whereas BFS only compute shortest path when each edge counts 1

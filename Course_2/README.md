@@ -31,3 +31,11 @@
 (Continue here)
 ## Dijkstra's shortest-path algorithm 
   - can be used to compute le > 1, whereas BFS only compute shortest path when each edge counts 1
+
+## HEAPS
+
+## Balanced binary search trees
+
+## Universal hashing
+
+## Bloom filters

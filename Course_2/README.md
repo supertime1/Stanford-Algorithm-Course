@@ -49,4 +49,7 @@
    - all operations in O(1) time
    - applications: anything evolves a look-up (de-duplication, 2-sum problem)
    - implementaion needs a careful hash function design to resolve Collision (distinct x,y end up in a same hash value)
+    - use linked list
+    - universal hash functions
 ### Bloom filters
+  - A special type of hash-table that only returns False or True

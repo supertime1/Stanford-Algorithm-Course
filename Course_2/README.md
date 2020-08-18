@@ -1,5 +1,5 @@
 # Graph Search, Shortest Paths, and Data Structures
-## 1.Graph search and connectivity
+## Graph search and connectivity
 - Motivations: 
   - check if a network is connected
   - driving direction
@@ -39,9 +39,12 @@
    - Application: anything evloves extract-min (sorting, event manager, Dijkstra's shortest path algorithm etc.)
 
 ### Binary search trees
+  - BST just like sorted array but with fast inserts + deletes
    ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/BST.png?raw=true)
 
-  - 
+  - Balanced search tree: ensures that height is always O(log(n)) (shortest possible, e.g. red-black tree)
+    - two common operations to maintain the balanced structure: rotation, insertion
+    
 ### Universal hashing
-
+   - 
 ### Bloom filters

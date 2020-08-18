@@ -39,6 +39,8 @@
    - Application: anything evloves extract-min (sorting, event manager, Dijkstra's shortest path algorithm etc.)
 
 ### Binary search trees
+   ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/BST.png?raw=true)
+
   - 
 ### Universal hashing
 

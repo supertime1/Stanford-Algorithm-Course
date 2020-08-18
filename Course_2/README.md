@@ -38,8 +38,8 @@
    - Operations: Insert O(log(n)), Extract-min: O(log(n)), Heapify: O(n), Delete O(log(n)), given n = # of objects in heap 
    - Application: anything evloves extract-min (sorting, event manager, Dijkstra's shortest path algorithm etc.)
 
-### Binary search trees
-  - BST just like sorted array but with fast inserts + deletes
+### Balanced Binary search trees
+  - BBST just like sorted array but with fast inserts + deletes
    ![Notebook](https://github.com/supertime1/Stanford-Algorithm-Course/blob/master/Images/BST.png?raw=true)
 
   - Balanced search tree: ensures that height is always O(log(n)) (shortest possible, e.g. red-black tree)

@@ -46,5 +46,7 @@
     - two common operations to maintain the balanced structure: rotation, insertion
     
 ### Universal hashing
-   - 
+   - all operations in O(1) time
+   - applications: anything evolves a look-up (de-duplication, 2-sum problem)
+   - implementaion needs a careful hash function design to resolve Collision (distinct x,y end up in a same hash value)
 ### Bloom filters

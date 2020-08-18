@@ -1,5 +1,5 @@
 # Graph Search, Shortest Paths, and Data Structures
-## Graph search and connectivity
+## 1.Graph search and connectivity
 - Motivations: 
   - check if a network is connected
   - driving direction
@@ -28,14 +28,18 @@
  - compute a topological ordering of a directed acyclic graph: DFS O(m+n)
  - compute the strongly connected components of directed graphs: Kosaraju's two-pass algorithm O(m+n):
 
-(Continue here)
 ## Dijkstra's shortest-path algorithm 
   - can be used to compute le > 1, whereas BFS only compute shortest path when each edge counts 1
+  
+## Data Structures
+### HEAPS
+  - Heap is a special tree-based data structure in which the tree is a complete binary tree
+   - Type: Max-heap, Min-heap
+   - Operations: Insert O(log(n)), Extract-min: O(log(n)), Heapify: O(n), Delete O(log(n)), given n = # of objects in heap 
+   - Application: anything evloves extract-min (sorting, event manager, Dijkstra's shortest path algorithm etc.)
 
-## HEAPS
+### Binary search trees
+  - 
+### Universal hashing
 
-## Balanced binary search trees
-
-## Universal hashing
-
-## Bloom filters
+### Bloom filters

@@ -6,10 +6,10 @@
   Each job has a weight: w and length l, in what order should we sequence the jobs to minimize weigth sum wxC, where C = sum of length l
   solution: schedule w/l by decreasing order
 #### Prim's Minimum Spanning Tree Algorithm
-  Connect all vertices in a graph with minimum cost
-  Input: undirected graph, OK if edge costs are negative
-  Output: minimum cost tree T that spans all vertices (i.e. T has no cycles)
-  Prim's algorithm: O（m log(n))
+  - Connect all vertices in a graph with minimum cost
+  - Input: undirected graph, OK if edge costs are negative
+  - Output: minimum cost tree T that spans all vertices (i.e. T has no cycles)
+  - Prim's algorithm: O（m log(n))
     - Initialize X = {s}
     - T = None
     - While X != V

@@ -49,7 +49,14 @@
   #### The Knapsack Problem
   - n items each has a value v and size w, and a target capacity W, find a best combination that maximize sum of w <= W
   - Algoritm: O(nW)
-    - 
+    - Let A(i,x) = value of the best solution that use only the first i items, and has total size <= x
+    - Initialize A[0,x] = 0 for x = 0:W
+    - For i = 1:n
+      - For x = 0:W
+        - if wi > x: A[i,x] = A[i-1,x]
+        - A[i,x] = max[A[i-1,x], A[i-1, x-wi] + vi}
+    - Return A[n,W]
+    
   
   #### Sequence Alignment
   #### Optimal Binary Search Tress

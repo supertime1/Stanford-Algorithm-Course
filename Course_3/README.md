@@ -37,6 +37,7 @@
     - Extend T' to T with leaves
    
 ### 2. Dynamic Programming
+  The key is to find the subproblem whose solution is also the optimal solution
   #### Max-weight independent set (WIS)
   - Given a graph with non-negative weights on vertices, find an independent set (non-adjacent vertices) with maximum total weight
   - Algorithm: O(n)
@@ -56,7 +57,16 @@
         - if wi > x: A[i,x] = A[i-1,x]
         - A[i,x] = max[A[i-1,x], A[i-1, x-wi] + vi}
     - Return A[n,W]
-    
-  
+ 
   #### Sequence Alignment
+  - A C C G G T vs. A C C G B -
+  - A = 2-D array
+  - A[i,0] = A[0,i] = i * alpha(gap)
+  - For i = 1:m
+    - For j = 1:n
+      - A[i,j] = min{A[i-1,j-1] + alpha(xi yj), A[i-1, j] + alpha(gap), A[i, j-1] + alpha(gap)}
+  - return A[i,j]
+  
   #### Optimal Binary Search Tress
+  - Input: Frequencies Pn, Output a valid search tree that minimizes the weighted(average) search time
+  

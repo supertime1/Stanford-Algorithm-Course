@@ -69,4 +69,10 @@
   
   #### Optimal Binary Search Tress
   - Input: Frequencies Pn, Output a valid search tree that minimizes the weighted(average) search time
+  - Algorithm: O(n^3) or O(n^2):
+    - Let A = 2-D array (A[i,j] represents opt BST value of items from i to j
+    - For s = 0 : n-1:
+      - For i = 1 : n:
+        A[i,i+s] = min(r = i: i+s){(sum of Pk from k=i:i+s) + A[i, r-1] + A[r+1, i+s] }
+    Return A[1,n]
   

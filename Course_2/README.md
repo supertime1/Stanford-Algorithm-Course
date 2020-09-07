@@ -12,7 +12,7 @@
   - let Q = queue data structure (FIFO), initialized with S
   - while Q != empty
     - remove the first node of Q, call it v
-    - for each edge (v,m):
+    - for each edge (v,w):
      - if w unexplored
       - mark w as explored
       - add w to Q (at the end)
